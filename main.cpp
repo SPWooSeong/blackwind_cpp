@@ -1,8 +1,12 @@
 #include <iostream>
+#include "cal.h"
 
-using namespace std;
+int main(void) {
+    int num1 = 5;
+    int num2 = 3;
 
-int main(void){
-	std::cout << "Hello World!" << std::endl;
-	return 0;
+    std::cout << "Addition: " << add(num1, num2) << std::endl;
+    std::cout << "Subtraction: " << minus(num1, num2) << std::endl;
+
+    return 0;
 }

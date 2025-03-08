@@ -1,0 +1,10 @@
+ls : 현재 경로를 나타냄
+cd {file_name} : 파일 안으로 위치가 이동
+g++ {file_name}.cpp -o {file_name} : cpp파일 실행 파일이 생김
+./{file_name} : 파일 실행
+
+파일 여러 개를 실행할 때는 다르게 한다.
+
+
+
+
